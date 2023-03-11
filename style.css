@@ -63,7 +63,7 @@ aside {
     background-color: var(--color-black);
     text-align: center;
     box-shadow: 20px 20px 40px black;
-    margin-left: 17%;
+    margin-left: 10%;
 }
 
 aside h1 {
@@ -107,11 +107,11 @@ aside a {
 main {
     border-radius: 5%;
     padding: 3.5rem 6rem;
-    width: 500px;
+    width: 700px;
     background-color: var(--color-black);
     text-align: left;
     box-shadow: 20px 20px 40px black;
-    margin-right: 17%;
+    margin-right: 10%;
 }
 
 main h1 {
