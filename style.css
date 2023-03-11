@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-black: #11181A;
+    --color-grey: #182022;
+    --color-red: #F74964;
+    --color-orange: #EF897A;
+    --color-green: #9CBA94;
+    --color-white: #EAEAEA;
+}
+
+body {
+    font-family: Fira Sans Condensed;
+    background-color: var(--color-grey);
+    color: var(--color-white);
+}
+
+body a {
+    text-decoration: none;
+}
+
+.red-text {
+    color: var(--color-red);
+}
+
+.orange-text {
+    color: var(--color-orange);
+}
+
+.green-text {
+    color: var(--color-green);
+}
+
+header {
+    background-color: var(--color-black);
+    box-shadow: 3px 3px 20px black;
+}
+
+.logo-img {
+    width: 500px;
+    padding: 0.8rem 2rem;
+}
+
+.conteiner {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside {
+    border-radius: 5%;
+    padding: 2.5rem;
+    width: 350px;
+    background-color: var(--color-black);
+    text-align: center;
+    box-shadow: 20px 20px 40px black;
+    margin-left: 17%;
+}
+
+aside h1 {
+    font-size: 25px;
+}
+
+aside h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+ul li {
+    font-size: 14px;
+    list-style: none;
+}
+
+aside p {
+    font-size: 14px;
+}
+
+aside a {
+    display: block;
+    margin: 15px 10px;
+    background-color: var(--color-grey);
+    border-radius: 10px;
+    height: 35px;
+    padding: 0.5rem;
+    border-color: var(--color-green);
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: var(--color-green);
+}
+
+
+.profile-img {
+    width: 150px;
+}
+
+main {
+    border-radius: 5%;
+    padding: 3.5rem 6rem;
+    width: 500px;
+    background-color: var(--color-black);
+    text-align: left;
+    box-shadow: 20px 20px 40px black;
+    margin-right: 17%;
+}
+
+main h1 {
+    margin-left: -3rem;
+    background-color: #182022;
+    margin-right: -3rem;
+    margin-bottom: 2rem;
+    font-size: 25px;
+    padding: 0.3rem 1.5rem;
+}
+
+main h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 10px 0;
+    text-align: left;
+}
+
+main p {
+    font-size: 14px;
+    margin-left: -2.5rem;
+}
+
+
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.facebook-icon {
+    width: 1.55rem;
+}
+
+.social-icon {
+    width: 2.5rem;
+}
+
+footer {
+    background-color: var(--color-black);
+    position: fixed;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
